@@ -4,10 +4,10 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 
 ## Languages translations
 
-| Language   | achievements | store |
-|------------|--------------|-------|
-| English    | 0/0          | 1/2   |
-| Francais   | 0/0          | 1/2   |
+| Language   | achievements | buildings | contracts | credits | durations | features | resources | store |
+|------------|--------------|-----------|-----------|---------|-----------|----------|-----------|-------|
+| English    | 0/0          | 2/2       | 6/6       | 9/9     | 5/5       | 0/0      | 3/3       | 8/8   |
+| Francais   | 0/0          | 2/2       | 6/6       | 9/9     | 5/5       | 0/0      | 3/3       | 2/8   |
 
 ## How to contribute ?
 
