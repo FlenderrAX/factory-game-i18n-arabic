@@ -31,10 +31,10 @@
 	},
 	"files": [
 		"achievements",
-		"buildings",
 		"contracts",
 		"credits",
 		"durations",
+		"equipments",
 		"features",
 		"resources",
 		"store"
