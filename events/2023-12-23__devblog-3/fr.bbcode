@@ -1,0 +1,84 @@
+TITLE:
+Devblog #3 - La logistique
+
+SUBTITLE:
+N/A
+
+SUMMARY:
+Le sujet de ce troisième DevBlog est une pierre angulaire du gameplay : la gestion des ressources.
+
+BODY:
+[b]Historique du DevBlog[/b]
+[olist]
+[*] [url=https://store.steampowered.com/news/app/2146380/view/7184986051960660929]09/2023 - #1 - Qui ? Quoi ? Où ? Quand ?[/url]
+[*] [url=https://store.steampowered.com/news/app/2146380/view/3737483611565199154]10/2023 - #2 - L'automatisation ne concerne pas seulement le gameplay[/url]
+[*] [b]12/2023 - #3 - La logistique[/b] (Ici !)
+[/olist]
+
+Bonjour à tous, entrepreneurs en herbe !
+
+Bienvenue dans ce troisième DevBlog de [b]Manufactur'inc[/b] ! Comme vous l'avez sans doute remarqué, deux mois se sont déjà écoulés depuis le précédent. Mais ne vous inquiétez pas, il y en aura deux en décembre (le prochain dans une semaine !).
+
+Le sujet de ce troisième DevBlog est une pierre angulaire du gameplay : la gestion des ressources.
+
+[h1]Historique du système[/h1]
+
+[h2]L'ancien système[/h2]
+
+Jusqu'en novembre, il y avait une première version du gameplay qui me permettait de travailler, d'essayer des fonctionnalités et de jouer. Voici comment cela fonctionnait : il y avait un stockage global des ressources - comme vous pouvez en trouver dans la plupart des jeux de gestion/stratégie - ce qui signifie que si vous aviez une scie, elle prendrait des bûches de bois dans le stockage global et produirait des planches dans ce pool de stockage global, sans aucun délai de transport.
+
+[h2]Quoi améliorer ?[/h2]
+
+C'était une bonne et facile manière de développer mais... pas la meilleure idée en termes de gameplay et de fun. J'ai donc décidé de retravailler complètement cette partie du jeu pendant ma semaine de vacances début novembre.
+Cela a pris [i]un peu plus[/i] de temps que prévu, car je n'ai pas eu une première version fonctionnelle avant la fin du mois de novembre, et j'ai encore quelques cas de figure non fonctionnels au moment où j'écris ces lignes.
+
+[h2]Pourquoi est-ce si long ?[/h2]
+
+Le développement est long car Manufactur'inc est et sera un jeu multijoueur et en temps réel. Cela signifie que lorsque vous vous connectez au jeu, il devra recalculer ce qui s'est passé pour votre industrie depuis la dernière session. Qu'il s'agisse d'une heure... ou d'une année entière. Je dois donc introduire quelques "raccourcis de calcul" pour pouvoir simuler ces grandes durées par exemple "répéter ce modèle de production X fois". En bref : il s'agit d'une grosse charge de travail et elle est complexe !
+
+[h1]Mais quel est ce nouveau système ?[/h1]
+
+Ce nouveau système présente deux différences majeures par rapport au précédent :
+[list]
+[*] J'introduis une notion de stockage "local" : chaque outil et chaque "entrepôt" dispose de son propre stockage interne. Cela signifie que nous vérifierons ce stockage pour savoir si nous pouvons produire une ressource (si l'emplacement de sortie est plein ou si vous n'avez pas le matériau d'entrée, vous ne pouvez pas produire !)
+[*] Il y aura également des transits de ressources entre les équipements. Lorsque votre scie a besoin de produire des planches, elle devra d'abord apporter des rondins de bois depuis le stockage approprié, attendre qu'ils arrivent, produire, puis extraire les planches du stockage de sortie jusqu'à leur destination.
+[/list]
+
+[h1]Tests[/h1]
+
+Je n'entrerai pas dans les détails techniques, mais comme indiqué dans le [url=https://store.steampowered.com/news/app/2146380/view/3737483611565199154]second devblog[/url], j'écris des tests automatisés pour la plupart des systèmes du jeu. Celui-ci n'est pas différent ; j'ai écrit [b]des tonnes[/b] de tests pour ce système, y compris des tests ciblés ainsi que des simulations d'usines complètes (en particulier celle que vous aurez à la fin du premier tutoriel !).
+
+[img]{STEAM_CLAN_IMAGE}/44529211/0e08644173fc481c0d73ea6ee5e7152ec3b9e178.png[/img]
+
+[h1]Ok, c'est cool, mais est-ce que tu as des visuels ? ![/h1]
+
+Oui ! Bien que la majeure partie du travail se fasse en coulisses, j'ai quelques images à partager, en particulier ce GIF de la première version de l'animation du client du jeu représentant la simulation :
+
+[img]{STEAM_CLAN_IMAGE}/44529211/1c53276a42bc4de47d4ebcafd521f3239dcb9c0e.gif[/img]
+
+Et si vous êtes curieux de savoir comment il a évolué au fil du temps :
+
+[olist]
+[*][img]{STEAM_CLAN_IMAGE}/44529211/f60e226e37575100d5a28ec376d068b34b85a8bb.gif[/img]
+[*][img]{STEAM_CLAN_IMAGE}/44529211/33f6c4ceed23fbf04eb9a6f932c317e3f7c3bd42.gif[/img]
+[*][img]{STEAM_CLAN_IMAGE}/44529211/f1784dcf07159deb8d4ab5362e4ee5cd9408a127.gif[/img]
+[*][img]{STEAM_CLAN_IMAGE}/44529211/50ffa22858aea7fa1782fcfa86bbac45e161bcb6.gif[/img]
+[*][img]{STEAM_CLAN_IMAGE}/44529211/1c53276a42bc4de47d4ebcafd521f3239dcb9c0e.gif[/img]
+[/olist]
+
+[h1]Conclusion[/h1]
+
+Voilà pour ce Devblog ! Vous avez aimé ce petit tour d'horizon des coulisses ?
+
+Si vous avez des questions sur le jeu, vous pouvez créer un commentaire sous cet article et je serais ravi d'en parler, ou peut-être même d'écrire un futur DevBlog sur le sujet !
+Vous pouvez également [url=https://discord.com/invite/c8aARey]rejoindre le discord de Dysnomia[/url] pour que nous puissions en parler !
+
+Si vous souhaitez me suivre ailleurs et obtenir plus qu'une mise à jour mensuelle sur l'état du jeu, vous pouvez le faire :
+- [url=https://discord.com/invite/c8aARey]Rejoindre le Discord de Dysnomia[/url]
+- [url=https://www.tiktok.com/@elanis42]Me suivre sur Tiktok[/url] (j'essaierai de poster autant que possible ici, mais cela prend beaucoup de temps !)
+- [url=https://www.twitch.tv/elanis42]Suivez-moi sur Twitch[/url] où je fais parfois du développement de jeux en direct.
+- [url=https://mastodon.gamedev.place/@Elanis]Suivez-moi sur mastodon[/url]
+- [url=https://bsky.app/profile/elanis.bsky.social]Suivez-moi sur Bluesky[/url]
+
+Merci d'avoir lu ce DevBlog, et bon week-end !
+Elanis

@@ -1,0 +1,102 @@
+TITLE:
+Devblog #2 - Automation isn't just about gameplay
+
+SUBTITLE:
+Let's talk about automation, but behind the scenes
+
+SUMMARY:
+Let's talk about automation, but behind the scenes
+
+BODY:
+[b]Devblog history[/b]
+[olist]
+[*] [url=https://store.steampowered.com/news/app/2146380/view/7184986051960660929]09/2023 - #1 - Who? What? Where? When?[/url]
+[*] [b]10/2023 - #2 - Automation isn't just about gameplay[/b]  (Here !)
+[/olist]
+
+Hello!
+
+Welcome to this second DevBlog of [b]Manufactur'inc[/b]!
+If you didn't read the first one and want to know about the game, you can [url=https://store.steampowered.com/news/app/2146380/view/7184986051960660929]read it here[/url]!
+
+Today, we're going to talk about [i]automation[/i], but not the one you will be able to set in the game, we will talk about how I automate my own stuff to make my life easier to [b]release update faster[/b] and [b]automatically test whole parts of the game[/b].
+
+As I presented in the first DevBlog, I'm here to vulgarize things. I hope to share pieces of my developer life with everyone here without going into technical details :)
+
+[h1]Auto-updates[/h1]
+
+Something that made me lose *a lot* of time on my first game was releasing updates. You can't imagine how it's a pain to manually build a game build for 3 Operating systems (Windows, MacOS, Linux) and two architectures each (32bits/64bits, except for MacOS which only has the latter).
+
+So, something I set up 3 years ago with [url=https://store.steampowered.com/app/1299430/Extortion/]Exortion[/url] was to automatically create all 5 builds on a server every time I was going to "save my code" on the server.
+
+It reduced the time I dedicated to releasing an update from 1+ hour to ~15 minutes: download 5 .zip files from my server, upload to Steam and itch, trigger Steam update, and here we go!
+
+"That's cool" you would like to say?
+Yes, but some improvements were still possible!
+
+One year later, I was using [url=https://developer.valvesoftware.com/wiki/SteamCMD]SteamCMD[/url] to automatically push to Steam servers and [url=https://itch.io/docs/butler/]Butler[/url] to push to itch.io automatically.
+
+What do I still have to do now? Press the release button, and write a nice update announcement!
+
+So here's what it looks like now for [url=https://store.steampowered.com/app/1299430/Extortion/]Exortion's[/url] demo for example, pretty cool no ? 😁
+
+[img]{STEAM_CLAN_IMAGE}/44529211/b7d935bc59ec1b34f533ab0c9d3e596a6c11e8d6.png[/img]
+
+Of course, Manufactur'inc already has this, from day one of development (and that's really cool to have !):
+
+[img]{STEAM_CLAN_IMAGE}/44529211/baeb62343b13ccfc545d221c9fd988e228e1608c.png[/img]
+
+[h1]Automated testing[/h1]
+
+Another important topic that took up a lot of time in repetitive actions was testing. Being able to re-test every feature of a game before updating is something almost impossible when done manually (and we're not even talking about the time spent !).
+
+Automated testing is something common in my original development field (web development) and I wanted to bring this to my games as well, it easily prevents tons of bugs (not all, unfortunately !) and can test dozens of times faster than a human does, while being less error-prone!
+
+So, how and what do I test? I do two kinds of tests:
+- Feature specific tests (called unit tests)
+- "Global" test (called end-to-end)
+
+[h3]Unit tests[/h3]
+
+A good example of [b]unit test[/b] is about this part of UI:
+[img]{STEAM_CLAN_IMAGE}/44529211/a45fff2263fb9ce9f49354d9f5ee063dc793b1f9.png[/img]
+
+I have to test that the number is displayed correctly, e.g.
+
+"123" is displayed as "123"
+"1230" as "1.23K"
+"1200001" as "1.2M"
+and so on
+
+So, I write lots of rules about this, and every time I run tests, it will check that this is okay! So, if ever I modify the system because I need to have "P" after "K" (=1 000), "M" (=1 000 000), "G" (=1 000 000 000), "T" (=1 000 000 000 000), I can be sure I didn't accidentally break anything!
+
+[h3]End-to-end tests[/h3]
+
+As for [b]end-to-end[/b] tests, I will test a scenario from start to end, e.g:
+- Login to the game
+- Place a building
+- Check that resource X is generating
+- Go to the contracts tab
+- Check that we succeed contact Y (because it asked to construct this building)
+- and so on
+
+If you want to see what it looks like for [url=https://store.steampowered.com/app/1730540/Alchemistry/]Alchemistry[/url] you can watch a video [url=https://cloud.dysnomia.studio/f/52ec625f17684a2284b6/]here[/url] (Sorry, I can't embed it on Steam !).
+Or another cool example of Extortion:
+[img]https://cdn.discordapp.com/attachments/906520560559882272/1165292262037651526/tests_extortion_short.gif[/img]
+
+End-to-end testing and administration tools have been both my main focus since the game announcement (hence why I'm talking about this here). Those tools will both make me work easier and faster in the future (and I will need this since I will be solo on this project !).
+
+[h1]Conclusion[/h1]
+
+I hope you liked this little behind-the-scene of game development!
+If you think things could be improved, you can add a comment under this post and I'd love to talk about it! You can also [url=https://discord.com/invite/c8aARey]join Dysnomia's discord[/url] so we can talk about this!
+
+If you are interested to follow me elsewhere and get more than a monthly update about the game state, you can:
+- [url=https://discord.com/invite/c8aARey]Join Dysnomia's Discord[/url]
+- [url=https://www.tiktok.com/@elanis42]Follow me on Tiktok[/url] (I will try to post as much as I can here, but it takes a lot of time !)
+- [url=https://www.twitch.tv/elanis42]Follow me on Twitch[/url] where I sometimes do game development live
+- [url=https://mastodon.gamedev.place/@Elanis]Follow me on mastodon[/url]
+- [url=https://bsky.app/profile/elanis.bsky.social]Follow my new and shiny Bluesky account![/url]
+
+Thanks for reading this second DevBlog, and have a nice weekend!
+Elanis
