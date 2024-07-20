@@ -1,4 +1,12 @@
 {
-	 "item-page-title": "Item",
-	 "item-page-description": "This page show informations about the item \"%element%\" in Manufactur'inc."
+	"achievement-page-title": "Achievements",
+	"achievement-page-description": "The list of achievements of Manufactur'inc on Steam.",
+	"contracts-page-title": "Contracts",
+	"contract-page-title": "Contract",
+	"equipments-page-title": "Equipments",
+	"equipment-page-title": "Equipment",
+	"equipment-page-description": "This page show informations about the equipment \"%element%\" in Manufactur'inc.",
+	"item-page-title": "Item",
+	"item-page-description": "This page show informations about the item \"%element%\" in Manufactur'inc.",
+	"items-page-title": "Items"
 }
