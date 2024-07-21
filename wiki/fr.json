@@ -8,5 +8,7 @@
 	"equipment-page-description": "Cette page affiche les informations à propos de l'outil \"%element%\" dans Manufactur'inc.",
 	"item-page-title": "Element",
 	"item-page-description": "Cette page affiche les informations à propos de l'element \"%element%\" dans Manufactur'inc.",
-	"items-page-title": "Elements"
+	"items-page-title": "Elements",
+	"detail-pages-recipes": "Recettes",
+	"detail-pages-recipes-none": "Aucune"
 }
