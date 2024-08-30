@@ -14,37 +14,54 @@ BODY:
 [*] [url=https://store.steampowered.com/news/app/2146380/view/3737483611565199154]10/2023 - #2 - L'automatisation ne concerne pas seulement le gameplay[/url]
 [*] [url=https://store.steampowered.com/news/app/2146380/view/3883856311467351828]12/2023 - #3 - La logistique[/url]
 [*] [url=https://store.steampowered.com/news/app/2146380/view/3883856311496283654]12/2023 - #4 - Evenements et festivités[/url]
-[*] [b]02/2024 - #5 - #5 - Votre mission si toutefois vous l'acceptez...[/b]  (Ici !)
+[*] [url=https://store.steampowered.com/news/app/2146380/view/4160833394874745089]02/2024 - #5 - Votre mission si toutefois vous l'acceptez...[[/url]
+[*] [b]04/2024 - #6 - L'équilibrage et la création des contenu du jeu[/b]  (Ici!)
 [/olist]
 
-Comme vous pouvez le deviner, le DevBlog de ce mois-ci parlera d'un autre élément important du gameplay, à savoir les contrats (c'est-à-dire les quêtes du jeu).
+Bonjour à vous, futurs entrepreneurs !
 
-[img]{STEAM_CLAN_IMAGE}/44529211/a0ee074cb25afbbefd269d77d123ca2c45c42733.png[/img]
+Comme je l'ai expliqué à plusieurs reprises [url=https://discord.com/invite/c8aARey]Discord[/url], [url=https://bsky.app/profile/elanis.bsky.social]Bluesky[/url], et [url=https://mastodon.gamedev.place/@Elanis]Mastodon[/url], je suis actuellement en train de rénover ma maison et j'ai participé à la GDC, c'est pourquoi j'ai sauté le mois de mars pour le DevBlog et j'ai ralenti le développement durant cette période. 
+Mais me voici de retour avec un tout nouveau DevBlog ! Je continuerai de moins travailler que d'habitude pendant la fin du mois d'avril et le début du mois de mai, mais mon temps libre reviendra à la normale à la fin du printemps et pendant l'été !
+Travailler sur ce jeu pendant mon temps libre est une situation instable, mais heureusement, j'aime beaucoup travailler dessus ! :)
 
-Ces contrats seront présents pour paver la route de votre gameplay à long terme ainsi que de vos expériences à court terme. Ils existent avec plusieurs durées possibles:
+Revenons maintenant au sujet de ce DevBlog : Aujourd'hui, je vais vous parler d'un outil d'administration que je développe depuis quelques mois maintenant, et qui va m'aider à construire le jeu, en particulier lors de la préparation de nouvelles mises à jour de contenu pendant la phase d'accès anticipé et par la suite !
 
-[h2]Contrats globaux[/h2]
+[b]Pourquoi construire cet outil ?[/b]
 
-Les contrats globaux sont des contrats uniques, et à vie, ils seront utilisés à des fins diverses, du tutoriel au "déblocage de l'arbre technologique". Les objectifs de ces contrats seront de vous aider à en savoir plus sur le gameplay, et bien sûr, de débloquer de nouvelles ressources ou équipements passionnants pour votre entreprise !
+Vous pourriez vous demander pourquoi j'ai besoin de construire cet outil puisqu'il en existe probablement d'autres sur le marché ou que je pourrais travailler sans lui.
+C'est une bonne question.
 
-Certains d'entre eux seront obligatoires pour vous permettre d'aller plus loin dans le jeu, tandis que d'autres ne seront qu'un petit coup de pouce pour construire votre entreprise.
+Je construis cet outil pour de multiples raisons :
+[olist]
+[*] Il s'agit d'un outil spécifique au jeu, je n'ai donc pas trouvé d'outil similaire sur internet.
+[*] J'aime automatiser et simplifier de nombreux processus, le but étant d'avoir une expérience fluide et facile lors de la création de contenu pour mes projets. Je voulais me débarrasser des "choses ennuyeuses" et me concentrer sur la création de plus de contenu dans un laps de temps équivalent.
+[*] Je souhaitais un outil qui m'aide à voir les éléments existants (objets, équipements, recettes, contrats,...) afin de ne pas créer d'éléments en double, de les garder cohérents et de les équilibrer sans trop de problèmes.
+[/olist]
 
-[h2]Evénements limités en durée[/h2]
+C'est donc pour cela que j'ai créé cet outil ! (WIP)
 
-La plupart des événements non obligatoires seront limités dans le temps, qu'ils soient quotidiens, hebdomadaires, mensuels ou [url=https://store.steampowered.com/news/app/2146380/view/3883856311496283654]événementiels[/url], le but étant de vous donner de l'équipement à construire ou des ressources à produire en échange de superbes récompenses !
+[img]{STEAM_CLAN_IMAGE}/44529211/a7b684250b871154aec795e7250b09e4090cf2af.png[/img]
 
-Ces événements, ainsi que quelques mises à jour d'équilibrage, seront également créés pour forcer les joueurs à renouveler/alterer leur production dans des domaines variés et éviter les joueurs qui forment leur fortunes grâce à une niche.
+Comme vous pouvez le voir, ce n'est pas aussi joli que l'interface du jeu, mais ce n'est pas vraiment important puisque le seul utilisateur sera probablement moi. Je préfère me concentrer sur une bonne expérience utilisateur, comme sur cet écran :
 
-[h2]D'accord, c'est super, mais quel genre de récompenses je vais gagner avec ces contrats ?[/h2]
+[img]{STEAM_CLAN_IMAGE}/44529211/b9614afa28d9a31a9a3dd0e11640aef28be8b052.png[/img]
 
-De nombreuses possibilités seront disponibles, la plus évidente étant bien sûr l'argent, mais vous pourrez également obtenir diverses ressources, un bonus temporaire de bonheur pour les employés, débloquer de l'équipement, d'autres contrats, de nouvelles fonctionnalités de jeu, des succès, ...
+Il est en développement actif avec un autre outil qui peut appliquer l'équilibrage au serveur de jeu en direct, et le jeu lui-même bien sûr.
 
-[h2]Ah, ça a l'air génial, mais est-ce que ça veut dire que je dois remplir des contrats pour être sûr de progresser dans le jeu ?[/h2]
+Et pour ceux qui me suivent depuis longtemps, vous savez que ce n'est pas le seul outil que j'ai créé pour mes jeux, puisque j'ai également construit un outil de traduction pour mes jeux les plus anciens il y a quelques années.
 
-Remplir des contrats sera un énorme plus pour votre entreprise, mais ce n'est pas et ne sera pas le seul moyen de réussir et d'apprécier le jeu. Vous pouvez également essayer de jouer avec les prix du marché des ressources ou d'autres fonctionnalités futures que je présenterai dans ce DevBlog dans les mois à venir !
+[img]{STEAM_CLAN_IMAGE}/44529211/7127d33f26a57db01da25194dbc7d3293c729862.png[/img]
 
-Et un moyen de ne pas manquer les prochains est de suivre le Hub du jeu, en utilisant le bouton "Suivre" sur la page Steam.
-Et si vous êtes intéressé, je serais également heureux que vous mettiez le jeu en liste de souhaits.
+C'est bien sûr un investissement en temps, mais cela me permet d'ajouter de nouvelles métadonnées d'objets/équipements en quelques minutes.
+Ce qu'il reste à faire ensuite, ce sont les graphismes ... et c'est un tout autre sujet.
+
+En utilisant ces outils, je pourrai me concentrer sur l'écriture de nouvelles fonctionnalités, l'amélioration de l'expérience utilisateur, et tout simplement l'amélioration du jeu lui-même.
+Si vous êtes curieux de connaître les autres outils que j'utilise pour améliorer ma productivité sur Manufactur'inc et mes jeux précédents, je vous suggère de lire [url=https://store.steampowered.com/news/app/2146380/view/3737483611565199154]le 2nd DevBlog de Manufactur'inc a propos de l'automatisation[/url].
+
+Si vous avez aimé ce DevBlog, vous pouvez [b]lire les autres[/b] et [b]les partager avec vos amis[/b].
+
+Et pour ne pas rater les suivants, suivez le Hub du jeu, en utilisant le bouton "Follow" sur la page Steam.
+Et si vous êtes intéressés, je serais également heureux que vous mettiez le jeu en liste de souhaits.
 
 [img]{STEAM_CLAN_IMAGE}/44529211/81ec4c1b5efea7e92af182814772ca5f217db45e.gif[/img]
 
