@@ -3,7 +3,7 @@
 	"generic_reward": "Ending that contract will reward you:",
 	"generic_unlocks": "Unlocks %name%",
 	"follow_game": "Follow %game_name% on Steam!",
-	"craft_planks-title": "Craft planks",
-	"craft_planks-subtitle": "Build a sawmill and craft 10 planks.",
-	"craft_planks-description": "As a first activity, you might try to cut those wood log into planks and sell them !"
+	"first_production-title": "Craft planks",
+	"first_production-subtitle": "Build a sawmill and craft 10 planks.",
+	"first_production-description": "As a first activity, you might try to cut those wood log into planks and sell them !"
 }
