@@ -9,6 +9,7 @@ import features_en from './features/en.json';
 import feedback_en from './feedback/en.json';
 import menu_en from './menu/en.json';
 import resources_en from './resources/en.json';
+import settings_en from './settings/en.json';
 
 import achievements_fr from './achievements/fr.json';
 import equipments_fr from './equipments/fr.json';
@@ -19,6 +20,9 @@ import features_fr from './features/fr.json';
 import feedback_fr from './feedback/fr.json';
 import menu_fr from './menu/fr.json';
 import resources_fr from './resources/fr.json';
+import settings_fr from './settings/fr.json';
+
+import config from './config.json';
 
 const resources = {};
 resources['en'] = {
@@ -29,8 +33,10 @@ resources['en'] = {
 	durations: durations_en,
 	features: features_en,
 	feedback: feedback_en,
+	languages: config.languages,
 	menu: menu_en,
 	resources: resources_en,
+	settings: settings_en,
 };
 resources['fr'] = {
 	achievements: achievements_fr,
@@ -40,8 +46,10 @@ resources['fr'] = {
 	durations: durations_fr,
 	features: features_fr,
 	feedback: feedback_fr,
+	languages: config.languages,
 	menu: menu_fr,
 	resources: resources_fr,
+	settings: settings_fr,
 };
 
 export default resources;
