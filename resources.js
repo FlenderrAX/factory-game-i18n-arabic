@@ -10,6 +10,7 @@ import feedback_en from './feedback/en.json';
 import menu_en from './menu/en.json';
 import resources_en from './resources/en.json';
 import settings_en from './settings/en.json';
+import user_market_history_en from './user_market_history/en.json';
 
 import achievements_fr from './achievements/fr.json';
 import equipments_fr from './equipments/fr.json';
@@ -21,6 +22,7 @@ import feedback_fr from './feedback/fr.json';
 import menu_fr from './menu/fr.json';
 import resources_fr from './resources/fr.json';
 import settings_fr from './settings/fr.json';
+import user_market_history_fr from './user_market_history/fr.json';
 
 import config from './config.json';
 
@@ -37,6 +39,7 @@ resources['en'] = {
 	menu: menu_en,
 	resources: resources_en,
 	settings: settings_en,
+	user_market_history: user_market_history_en,
 };
 resources['fr'] = {
 	achievements: achievements_fr,
@@ -50,6 +53,7 @@ resources['fr'] = {
 	menu: menu_fr,
 	resources: resources_fr,
 	settings: settings_fr,
+	user_market_history: user_market_history_fr,
 };
 
 export default resources;
