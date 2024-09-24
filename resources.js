@@ -7,6 +7,7 @@ import credits_en from './credits/en.json';
 import durations_en from './durations/en.json';
 import features_en from './features/en.json';
 import feedback_en from './feedback/en.json';
+import login_popup_en from './login_popup/en.json';
 import menu_en from './menu/en.json';
 import resources_en from './resources/en.json';
 import settings_en from './settings/en.json';
@@ -19,6 +20,7 @@ import credits_fr from './credits/fr.json';
 import durations_fr from './durations/fr.json';
 import features_fr from './features/fr.json';
 import feedback_fr from './feedback/fr.json';
+import login_popup_fr from './login_popup/fr.json';
 import menu_fr from './menu/fr.json';
 import resources_fr from './resources/fr.json';
 import settings_fr from './settings/fr.json';
@@ -36,6 +38,7 @@ resources['en'] = {
 	features: features_en,
 	feedback: feedback_en,
 	languages: config.languages,
+	login_popup: login_popup_en,
 	menu: menu_en,
 	resources: resources_en,
 	settings: settings_en,
@@ -50,6 +53,7 @@ resources['fr'] = {
 	features: features_fr,
 	feedback: feedback_fr,
 	languages: config.languages,
+	login_popup: login_popup_fr,
 	menu: menu_fr,
 	resources: resources_fr,
 	settings: settings_fr,

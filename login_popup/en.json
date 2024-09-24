@@ -1,0 +1,5 @@
+{
+  "message": "<h2>Welcome to {{gameEdition}} v{{version}} !</h2>\n\n<p>This version is a work in progress and doesn't fully reflect the final product that will be available in Early Access: you are currently playing a version with limited features and content.</p>\n\n<p>If you have any feedback, you can use the <FeedbackLink>Feedback</FeedbackLink> page on the sidebar or join the official <DiscordLink>Discord Server</DiscordLink>.<br/>\nI need your feedback to be able to improve the game and find bugs :)</p>\n\n<p>If you're wondering what's next you can take a look at the <SteamPage>Roadmap on the Steam Page</SteamPage>!</p>\n\n<p>Enjoy the game!<br/>\nElanis</p>\n\n<h3>Close this popup</h3>",
+  "demo": "Manufactur'inc Demo",
+  "playtest": "Manufactur'inc Playtest"
+}

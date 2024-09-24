@@ -1,0 +1,5 @@
+{
+  "message": "<h2>Bienvenue dans {{gameEdition}} v{{version}} !</h2>\n\n<p>Cette version est en cours de developpement et ne reflète pas complètement le produit final qui sera disponible en Accès Anticipé : vous jouez actuellement à une version avec des fonctionnalités et un contenu limités.</p>\n\n<p>Si vous avez des commentaires, vous pouvez utiliser la page <FeedbackLink>Faire un retour</FeedbackLink> psur la barre latérale ou rejoindre le <DiscordLink>serveur Discord officiel</DiscordLink>.<br/>\nJ'ai besoin de vos commentaires pour pouvoir améliorer le jeu et trouver les bugs :)</p>\n\n<p>Si vous vous demandez ce qui va suivre, vous pouvez jeter un coup d'œil à la <SteamPage>Roadmap sur la page Steam</SteamPage>!</p>\n\n<p>Amusez vous bien!<br/>\nElanis</p>\n\n<h3>Fermer cette fenêtre popup</h3>",
+  "demo": "la démo de Manufactur'inc",
+  "playtest": "le playtest de Manufactur'inc"
+}
