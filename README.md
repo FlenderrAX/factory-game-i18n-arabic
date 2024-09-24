@@ -4,24 +4,34 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 
 ## Languages translations
 
-| Language   | achievements | contracts  | credits   | durations | equipments | events   | features |
-|------------|--------------|------------|-----------|-----------|------------|----------|----------|
-| Deutsch    | 0/0          | 0/7        | 0/9       | 0/5       | 0/2        | 0/6      | 0/0      |
-| English    | 0/0          | 7/7        | 9/9       | 5/5       | 2/2        | 6/6      | 0/0      |
-| Francais   | 0/0          | 7/7        | 9/9       | 5/5       | 2/2        | 6/6      | 0/0      |
-| 日本語     | 0/0          | 0/7        | 0/9       | 0/5       | 0/2        | 0/6      | 0/0      |
-| Русский    | 0/0          | 0/7        | 0/9       | 0/5       | 0/2        | 0/6      | 0/0      |
-| 简体中文   | 0/0          | 0/7        | 0/9       | 0/5       | 0/2        | 0/6      | 0/0      |
+ |	Language |	Percentage |	achievements |	contracts |	credits |	durations |	equipments |
+ |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
+ |	Deutsch |	11% |	0/0 |	0/7 |	0/9 |	0/5 |	0/2 |
+ |	English |	100% |	0/0 |	7/7 |	9/9 |	5/5 |	2/2 |
+ |	Francais |	100% |	0/0 |	7/7 |	9/9 |	5/5 |	2/2 |
+ |	日本語 |	11% |	0/0 |	0/7 |	0/9 |	0/5 |	0/2 |
+ |	Русский |	11% |	0/0 |	0/7 |	0/9 |	0/5 |	0/2 |
+ |	简体中文 |	11% |	0/0 |	0/7 |	0/9 |	0/5 |	0/2 |
 
-| Language   | feedback | menu  | resources | settings | store | user_market_history | wiki   |
-|------------|----------|-------|-----------|----------|-------|---------------------|--------|
-| Deutsch    | 0/5      | 0/13  | 0/3       | 0/6      | 2/8   | 0/4                 | 0/12   |
-| English    | 5/5      | 13/13 | 3/3       | 6/6      | 8/8   | 4/4                 | 12/12  |
-| Francais   | 5/5      | 13/13 | 3/3       | 6/6      | 8/8   | 4/4                 | 12/12  |
-| 日本語     | 0/5      | 0/13  | 0/3       | 0/6      | 2/8   | 0/4                 | 0/12   |
-| Русский    | 0/5      | 0/13  | 0/3       | 0/6      | 2/8   | 0/4                 | 0/12   |
-| 简体中文   | 0/5      | 0/13  | 0/3       | 0/6      | 2/8   | 0/4                 | 0/12   |
 
+ |	Language |	Percentage |	features |	feedback |	menu |	resources |	settings |	store |
+ |	--- |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
+ |	Deutsch |	11% |	0/0 |	0/5 |	0/13 |	0/3 |	0/6 |	8/8 |
+ |	English |	100% |	0/0 |	5/5 |	13/13 |	3/3 |	6/6 |	8/8 |
+ |	Francais |	100% |	0/0 |	5/5 |	13/13 |	3/3 |	6/6 |	8/8 |
+ |	日本語 |	11% |	0/0 |	0/5 |	0/13 |	0/3 |	0/6 |	8/8 |
+ |	Русский |	11% |	0/0 |	0/5 |	0/13 |	0/3 |	0/6 |	8/8 |
+ |	简体中文 |	11% |	0/0 |	0/5 |	0/13 |	0/3 |	0/6 |	8/8 |
+
+
+ |	Language |	Percentage |	user_market_history |	wiki |
+ |	--- |	--- |	--- |	--- |
+ |	Deutsch |	11% |	0/4 |	0/12 |
+ |	English |	100% |	4/4 |	12/12 |
+ |	Francais |	100% |	4/4 |	12/12 |
+ |	日本語 |	11% |	0/4 |	0/12 |
+ |	Русский |	11% |	0/4 |	0/12 |
+ |	简体中文 |	11% |	0/4 |	0/12 |
 
 
 ## How to contribute ?
@@ -29,12 +39,12 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 ### Github (Recommended)
 
 - Fork repository
-- Edit files
+- Edit files, you can use [translatool](https://github.com/Dysnomia-studio/translatool) to help you.
 - Create a pull request
 
 ### Discord
 
-Join our [Official Discord](https://discord.gg/c8aARey), and send your translations in **Manufactur'inc** category, channel **#translations**.
+Join our [Official Discord](https://discord.gg/c8aARey), and send your translations in the **Manufactur'inc** channel.
 
 ### Steam Forum
 
@@ -50,13 +60,14 @@ Participate on the official [Translation Thread on Steam](TODO)
 - fi : Suomi
 - hu : Magyar
 - it : Italiano
-- ko: 한국어
+- ko : 한국어
 - nl : Nederlands
 - no : Norsk
 - pl : Polski
 - pt-BR : Português-Brasil
 - pt : Português
 - ro : Română
+- sv : Svenska
 - th : ไทย
 - tr : Türkçe
 - uk : Українська
