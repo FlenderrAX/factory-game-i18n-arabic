@@ -1,4 +1,6 @@
 {
+	"title": "Manufactur'inc",
+	"description": "This repo contains translations for Manufactur'inc, you can find the game on [Steam](https://store.steampowered.com/app/2146380/Manufactur_inc).",
 	"languages": {
 		"ar":"العربية",
 		"bg":"български език",
@@ -35,10 +37,15 @@
 		"credits",
 		"durations",
 		"equipments",
+		"events",
 		"features",
+		"feedback",
+		"menu",
 		"resources",
 		"settings",
 		"store",
+		"user_market_history",
 		"wiki"
-	]
+	],
+	"steamTranslationThread": "TODO"
 }
