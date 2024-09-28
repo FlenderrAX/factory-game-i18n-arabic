@@ -16,12 +16,12 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 
  |	Language |	Percentage |	features |	feedback |	leaderboard |	login_popup |	menu |	resources |
  |	--- |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
- |	Deutsch |	2% |	0/0 |	0/5 |	0/5 |	0/3 |	0/13 |	0/3 |
- |	English |	100% |	0/0 |	5/5 |	5/5 |	3/3 |	13/13 |	3/3 |
- |	Francais |	93% |	0/0 |	5/5 |	5/5 |	3/3 |	13/13 |	3/3 |
- |	日本語 |	2% |	0/0 |	0/5 |	0/5 |	0/3 |	0/13 |	0/3 |
- |	Русский |	2% |	0/0 |	0/5 |	0/5 |	0/3 |	0/13 |	0/3 |
- |	简体中文 |	2% |	0/0 |	0/5 |	0/5 |	0/3 |	0/13 |	0/3 |
+ |	Deutsch |	2% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/3 |
+ |	English |	100% |	0/0 |	5/5 |	6/6 |	3/3 |	13/13 |	3/3 |
+ |	Francais |	93% |	0/0 |	5/5 |	6/6 |	3/3 |	13/13 |	3/3 |
+ |	日本語 |	2% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/3 |
+ |	Русский |	2% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/3 |
+ |	简体中文 |	2% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/3 |
 
 
  |	Language |	Percentage |	settings |	store |	user_market_history |	wiki |
