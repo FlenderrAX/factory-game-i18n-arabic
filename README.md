@@ -6,12 +6,12 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 
  |	Language |	Percentage |	achievements |	contracts |	credits |	durations |	equipments |
  |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
- |	Deutsch |	2% |	0/0 |	0/7 |	0/10 |	0/5 |	0/2 |
- |	English |	100% |	0/0 |	7/7 |	10/10 |	5/5 |	2/2 |
- |	Francais |	94% |	0/0 |	7/7 |	10/10 |	5/5 |	2/2 |
- |	日本語 |	2% |	0/0 |	0/7 |	0/10 |	0/5 |	0/2 |
- |	Русский |	2% |	0/0 |	0/7 |	0/10 |	0/5 |	0/2 |
- |	简体中文 |	2% |	0/0 |	0/7 |	0/10 |	0/5 |	0/2 |
+ |	Deutsch |	2% |	0/0 |	0/13 |	0/10 |	0/5 |	0/2 |
+ |	English |	100% |	0/0 |	13/13 |	10/10 |	5/5 |	2/2 |
+ |	Francais |	94% |	0/0 |	13/13 |	10/10 |	5/5 |	2/2 |
+ |	日本語 |	2% |	0/0 |	0/13 |	0/10 |	0/5 |	0/2 |
+ |	Русский |	2% |	0/0 |	0/13 |	0/10 |	0/5 |	0/2 |
+ |	简体中文 |	2% |	0/0 |	0/13 |	0/10 |	0/5 |	0/2 |
 
 
  |	Language |	Percentage |	features |	feedback |	leaderboard |	login_popup |	menu |	resources |
