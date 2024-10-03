@@ -1,0 +1,10 @@
+{
+	"building-delete": "Delete",
+	"building-move": "Move",
+	"popup-close": "Close",
+	"loading-game": "Loading game...",
+	"money-format": "$%amount%",
+	"resource-buy": "Buy ($%price%)",
+	"resource-sell": "Sell ($%price%)",
+	"work-in-progress": "Work in progress"
+}
