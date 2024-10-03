@@ -1,8 +1,14 @@
 {
 	"generic_goodluck": "Good luck !",
+	"generic_objectives": "To conclude this contract, you must:",
+	"generic_requirements": "This contract will appear in-game if you complete the following requirements:",
 	"generic_reward": "Ending that contract will reward you:",
 	"generic_unlocks": "Unlocks %name%",
 	"follow_game": "Follow %game_name% on Steam!",
+	"objective_equipment_absolute": "Build %amount% x %equipment_type% (including the current built before getting the contract)",
+	"objective_equipment_relative": "Build %amount% x %equipment_type% (excluding the ones built before getting the contract)",
+	"objective_resource_absolute": "Have %amount% x %resource_type% (including the current obtained before getting the contract)",
+	"objective_resource_relative": "Have %amount% x %resource_type% (excluding the ones obtained before getting the contract)",
 	"first_production-title": "Craft planks",
 	"first_production-subtitle": "Build a sawmill and craft 10 planks.",
 	"first_production-description": "As a first activity, you might try to cut those wood log into planks and sell them !"
