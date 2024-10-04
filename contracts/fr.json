@@ -5,6 +5,7 @@
   "generic_reward": "En terminant ce contrat, vous recevrez en récompense:",
   "generic_unlocks": "Débloque %name%",
   "follow_game": "Suivre %game_name% sur Steam!",
+  "requirement_contract": "Finir %contractName%.",
   "objective_equipment_absolute": "Construisez %amount% x %equipment_type% (incluant les bâtiments construits avant l'obtention du contrat)",
   "objective_equipment_relative": "Construisez %amount% x %equipment_type% (excluant les bâtiments construits avant l'obtention du contrat)",
   "objective_resource_absolute": "Avoir %amount% x %resource_type% (incluant les ressources obtenues avant l'obtention du contrat)",

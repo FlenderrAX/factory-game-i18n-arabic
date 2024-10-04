@@ -5,6 +5,7 @@
 	"generic_reward": "Ending that contract will reward you:",
 	"generic_unlocks": "Unlocks %name%",
 	"follow_game": "Follow %game_name% on Steam!",
+  "requirement_contract": "Finish %contractName%.",
 	"objective_equipment_absolute": "Build %amount% x %equipment_type% (including the current built before getting the contract)",
 	"objective_equipment_relative": "Build %amount% x %equipment_type% (excluding the ones built before getting the contract)",
 	"objective_resource_absolute": "Have %amount% x %resource_type% (including the current obtained before getting the contract)",
