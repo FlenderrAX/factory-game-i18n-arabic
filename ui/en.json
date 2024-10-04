@@ -1,10 +1,19 @@
 {
-	"building-delete": "Delete",
-	"building-move": "Move",
-	"popup-close": "Close",
-	"loading-game": "Loading game...",
-	"money-format": "$%amount%",
-	"resource-buy": "Buy ($%price%)",
-	"resource-sell": "Sell ($%price%)",
-	"work-in-progress": "Work in progress"
+  "building-delete": "Delete",
+  "building-move": "Move",
+  "contact_completed": "A contract has been completed.",
+  "contact_unlocked": "A new contract has been unlocked.",
+  "equipment_unknown": "Error: Unknown equipment.",
+  "equipment_type_unknown": "Error: Unknown equipment type.",
+  "equipment_space_already_occupied": "Error: This space is already occupied.",
+  "equipment_missing_resources": "Error: No enough ressources to build this equipment.",
+  "market_exchange_no_enough_money": "Error: No enough money for this transaction.",
+  "market_exchange_no_enough_resource": "Error: No enough resource for this transaction.",
+  "market_exchange_no_enough_space": "Error: No enough storage space for this transaction.",
+  "popup-close": "Close",
+  "loading-game": "Loading game...",
+  "money-format": "$%amount%",
+  "resource-buy": "Buy ($%price%)",
+  "resource-sell": "Sell ($%price%)",
+  "work-in-progress": "Work in progress"
 }
