@@ -1,5 +1,13 @@
 {
-	"money": "Money",
-	"planks": "Planks",
-	"wood": "Wood"
+  "money": "Money",
+  "planks": "Planks",
+  "wood": "Wood",
+  "cardboard": "Cardboard",
+  "cardboard_box": "Cardboard Box",
+  "chair": "Chair",
+  "charcoal": "Charcoal",
+  "paper": "Paper",
+  "table": "Table",
+  "water": "Water",
+  "woodchip": "Woodchips"
 }

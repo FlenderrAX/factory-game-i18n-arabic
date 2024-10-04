@@ -1,4 +1,12 @@
 {
-	"small_saw": "Saw",
-	"small_paper": "Paper machine"
+  "small_saw": "Small Saw",
+  "large_saw": "Large saw",
+  "medium_saw": "Medium Saw",
+  "small_cardboard_box_machine": "Small cardboard box machine",
+  "small_cardboard_machine": "Small cardboard machine",
+  "small_chair_machine": "Small chair machine",
+  "small_table_machine": "Small table machine",
+  "small_furnace": "Small furnace",
+  "small_paper_machine": "Small paper machine",
+  "small_storage": "Small storage"
 }

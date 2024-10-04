@@ -1,5 +1,13 @@
 {
-	"money": "Argent",
-	"planks": "Planches",
-	"wood": "Bois"
+  "money": "Argent",
+  "planks": "Planches",
+  "wood": "Bois",
+  "cardboard": "Carton",
+  "cardboard_box": "Boite en carton",
+  "chair": "Chaise",
+  "charcoal": "Charbon de bois",
+  "paper": "Papier",
+  "table": "Table",
+  "water": "Eau",
+  "woodchip": "Copeaux de bois"
 }

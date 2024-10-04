@@ -1,4 +1,12 @@
 {
-  "small_saw": "Scie",
-  "small_paper": "Machine à papiers"
+  "small_saw": "Petite scie",
+  "large_saw": "Grande scie",
+  "medium_saw": "Scie moyenne",
+  "small_cardboard_box_machine": "Petite fabrique de boites en carton",
+  "small_cardboard_machine": "Petite fabrique de carton",
+  "small_chair_machine": "Fabrique de chaises",
+  "small_table_machine": "Fabrique de tables",
+  "small_furnace": "Petit four",
+  "small_paper_machine": "Petite fabrique à papier",
+  "small_storage": "Petit stockage"
 }
