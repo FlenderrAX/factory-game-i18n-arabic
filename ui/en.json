@@ -15,5 +15,9 @@
   "money-format": "$%amount%",
   "resource-buy": "Buy ($%price%)",
   "resource-sell": "Sell ($%price%)",
-  "work-in-progress": "Work in progress"
+  "work-in-progress": "Work in progress",
+  "delete-building-message": "Would you like you remove this building ?",
+  "delete-building-info": "This will give you 75% of its initial price.",
+  "yes": "Yes",
+  "no": "No"
 }
