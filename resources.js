@@ -12,6 +12,7 @@ import login_popup_en from './login_popup/en.json';
 import menu_en from './menu/en.json';
 import resources_en from './resources/en.json';
 import settings_en from './settings/en.json';
+import tutorials_en from './tutorials/en.json';
 import user_market_history_en from './user_market_history/en.json';
 import ui_en from './ui/en.json';
 
@@ -27,6 +28,7 @@ import login_popup_fr from './login_popup/fr.json';
 import menu_fr from './menu/fr.json';
 import resources_fr from './resources/fr.json';
 import settings_fr from './settings/fr.json';
+import tutorials_fr from './tutorials/fr.json';
 import user_market_history_fr from './user_market_history/fr.json';
 import ui_fr from './ui/fr.json';
 
@@ -48,6 +50,7 @@ resources['en'] = {
 	resources: resources_en,
 	settings: settings_en,
 	user_market_history: user_market_history_en,
+	tutorials: tutorials_en,
 	ui: ui_en,
 };
 resources['fr'] = {
@@ -65,6 +68,7 @@ resources['fr'] = {
 	resources: resources_fr,
 	settings: settings_fr,
 	user_market_history: user_market_history_fr,
+	tutorials: tutorials_fr,
 	ui: ui_fr,
 };
 
