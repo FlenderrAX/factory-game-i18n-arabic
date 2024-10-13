@@ -19,5 +19,6 @@
   "delete-building-message": "Would you like you remove this building ?",
   "delete-building-info": "This will give you 75% of its initial price.",
   "yes": "Yes",
-  "no": "No"
+  "no": "No",
+  "please_update": "Please update the game and restart it."
 }
