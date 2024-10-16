@@ -51,7 +51,7 @@ Join our [Official Discord](https://discord.gg/c8aARey), and send your translati
 
 ### Steam Forum
 
-Participate on the official [Translation Thread on Steam](TODO)
+Participate on the official [Translation Thread on Steam](https://steamcommunity.com/app/2146380/discussions/0/3812913565884003383/)
 
 ## Languages without translation yet
 - ar : العربية
