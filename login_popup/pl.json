@@ -1,0 +1,5 @@
+{
+  "message": "<h2>Witamy w {{gameEdition}} v{{version}}!</h2>\n\n<ChangelogsLink>🔗 Dzienniki zmian</ChangelogsLink>\n\n<p>Ta wersja jest w trakcie realizacji i nie odzwierciedla w pełni finalnego produktu, który będzie dostępny w ramach wczesnego dostępu: obecnie grasz w wersję z ograniczonymi funkcjami i zawartością.</p>\n\n<p>Jeśli masz jakieś uwagi, możesz skorzystać ze strony <FeedbackLink>Feedback</FeedbackLink> na pasku bocznym lub dołączyć do oficjalnego <DiscordLink>🔗 serwera Discord</DiscordLink>.<br/>\nPotrzebuję Twojej opinii, aby móc ulepszyć grę i znaleźć błędy :)</p>\n\n<p>Jeśli zastanawiasz się, co nowego będzie dodane w przyszłości, możesz zajrzeć na <SteamPage>🔗 Roadmap na stronie Steam</SteamPage>!</p>\n\n<p>Miłej gry!<br/>\nElanis</p>\n\n<h3>Zamknij to okno</h3>",
+  "demo": "Manufactur'inc Demo",
+  "playtest": "Manufactur'inc Playtest"
+}
