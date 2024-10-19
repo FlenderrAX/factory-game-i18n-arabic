@@ -32,6 +32,22 @@ import tutorials_fr from './tutorials/fr.json';
 import user_market_history_fr from './user_market_history/fr.json';
 import ui_fr from './ui/fr.json';
 
+import achievements_pl from './achievements/pl.json';
+import equipments_pl from './equipments/pl.json';
+import contracts_pl from './contracts/pl.json';
+import credits_pl from './credits/pl.json';
+import durations_pl from './durations/pl.json';
+import features_pl from './features/pl.json';
+import feedback_pl from './feedback/pl.json';
+import leaderboard_pl from './leaderboard/pl.json';
+import login_popup_pl from './login_popup/pl.json';
+import menu_pl from './menu/pl.json';
+import resources_pl from './resources/pl.json';
+import settings_pl from './settings/pl.json';
+import tutorials_pl from './tutorials/pl.json';
+import user_market_history_pl from './user_market_history/pl.json';
+import ui_pl from './ui/pl.json';
+
 import config from './config.json';
 
 const resources = {};
@@ -70,6 +86,24 @@ resources['fr'] = {
 	user_market_history: user_market_history_fr,
 	tutorials: tutorials_fr,
 	ui: ui_fr,
+};
+resources['pl'] = {
+	achievements: achievements_pl,
+	equipments: equipments_pl,
+	contracts: contracts_pl,
+	credits: credits_pl,
+	durations: durations_pl,
+	features: features_pl,
+	feedback: feedback_pl,
+	languages: config.languages,
+	leaderboard: leaderboard_pl,
+	login_popup: login_popup_pl,
+	menu: menu_pl,
+	resources: resources_pl,
+	settings: settings_pl,
+	user_market_history: user_market_history_pl,
+	tutorials: tutorials_pl,
+	ui: ui_pl,
 };
 
 export default resources;
