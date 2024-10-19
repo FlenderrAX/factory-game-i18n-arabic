@@ -4,7 +4,7 @@
   "generic_requirements": "Ten kontrakt pojawi się w grze, jeśli spełnisz następujące wymagania:",
   "generic_reward": "Za ukończenie tego kontraktu otrzymasz:",
   "generic_unlocks": "Odblokowuje %name%",
-  "follow_game": "Obserwuj %game_name% na Steam!",
+  "follow_game": "Obserwuj %game_name% na Steamie!",
   "objective_equipment_absolute": "Zbuduj %amount% x %equipment_type% (wliczając obecną konstrukcję przed podpisaniem kontraktu)",
   "objective_equipment_relative": "Zbuduj %amount% x %equipment_type% (z wyłączeniem tych zbudowanych przed otrzymaniem kontraktu)",
   "objective_resource_absolute": "Posiadasz %amount% x %resource_type% (w tym bieżące dane uzyskane przed uzyskaniem kontraktu)",
