@@ -1,9 +1,11 @@
 {
-	"title": "Settings",
-	"general": "General",
-	"language": "Language:",
-	"audio": "Audio",
-	"sound": "Sound Volume:",
-	"music": "Music Volume:",
-	"translations-link": "Participate in translations"
+  "title": "Settings",
+  "general": "General",
+  "language": "Language:",
+  "audio": "Audio",
+  "sound": "Sound Volume:",
+  "music": "Music Volume:",
+  "translations-link": "Participate in translations",
+  "reset-tutorial": "Reset the tutorial",
+  "reset-tutorial-done": "The tutorial has been reset!"
 }

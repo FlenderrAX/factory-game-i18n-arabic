@@ -1,9 +1,11 @@
 {
-	"title": "Paramètres",
-	"general": "Général",
-	"language": "Langage:",
-	"audio": "Audio",
-	"sound": "Volume des sons:",
-	"music": "Volume de la musique:",
-	"translations-link": "Participer aux traductions"
+  "title": "Paramètres",
+  "general": "Général",
+  "language": "Langage:",
+  "audio": "Audio",
+  "sound": "Volume des sons:",
+  "music": "Volume de la musique:",
+  "translations-link": "Participer aux traductions",
+  "reset-tutorial": "Réinitialiser le tutoriel",
+  "reset-tutorial-done": "Le tutoriel a été réinitialisé!"
 }
