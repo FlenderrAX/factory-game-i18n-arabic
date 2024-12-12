@@ -6,7 +6,11 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
 
  |	Language |	Percentage |	achievements |	contracts |	credits |	durations |	equipments |
  |	--- |	--- |	--- |	--- |	--- |	--- |	--- |
+<<<<<<< HEAD
  |	العربية |	39% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
+=======
+ |	العربية |	32% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
+>>>>>>> aaf0146 (Rectified Readmed)
  |	Deutsch |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
  |	English |	100% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
  |	Francais |	96% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
