@@ -14,7 +14,6 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
  |	Polski |	99% |	0/0 |	35/35 |	10/10 |	5/5 |	10/10 |
  |	Русский |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
  |	简体中文 |	1% |	0/0 |	0/35 |	0/10 |	0/5 |	0/10 |
- |	Arabic |	N/A% |	0/0 |	35/35 |	0/10 |	0/5 |	0/10 |
 
 
  |	Language |	Percentage |	features |	feedback |	leaderboard |	login_popup |	menu |	resources |
@@ -27,7 +26,6 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
  |	Polski |	99% |	0/0 |	5/5 |	6/6 |	3/3 |	13/13 |	11/11 |
  |	Русский |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
  |	简体中文 |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
- |	Arabic |	1% |	0/0 |	0/5 |	0/6 |	0/3 |	0/13 |	0/11 |
  
 
 
@@ -41,7 +39,6 @@ This repo contains translations for Manufactur'inc, you can find the game on [St
  |	Polski |	99% |	7/9 |	8/8 |	2/2 |	22/22 |	4/4 |	12/12 |
  |	Русский |	1% |	0/9 |	2/8 |	0/2 |	0/22 |	0/4 |	0/12 |
  |	简体中文 |	1% |	0/9 |	2/8 |	0/2 |	0/22 |	0/4 |	0/12 |
- |	Arabic |	1% |	0/9 |	0/8 |	0/2 |	0/22 |	0/4 |	0/12 |
 
 
 ## How to contribute ?
